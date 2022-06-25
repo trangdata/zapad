@@ -1,7 +1,9 @@
 ---
-title: "zapad"
+title: "Hi!"
 ---
 
-This is a Quarto website.
+I'm Zapad.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](images/wood.jpeg){width="600"}
+
+![](images/porch.jpeg){width="600"}
