@@ -1,9 +1,7 @@
 ---
-title: "Hi!"
+title: ""
 ---
 
 I'm Zapad.
 
-![](images/wood.jpeg){width="600"}
-
-![](images/porch.jpeg){width="600"}
+![](images/wood.jpeg){fig-align="right" width="600"}
