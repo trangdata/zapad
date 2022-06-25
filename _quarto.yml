@@ -1,17 +1,19 @@
 project:
   type: website
+  search: true
   output-dir: docs
 
 website:
   title: "zapad"
-  navbar:
-    left:
-      - href: index.qmd
-        text: " "
+  navbar: false
+    # search: false
+    # left:
+    #   - href: index.qmd
+    #     text: " "
 
 format:
   html:
-    theme: morph
+    theme: slate
     css: styles.css
     toc: true
 

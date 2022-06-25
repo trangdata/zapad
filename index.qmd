@@ -2,6 +2,12 @@
 title: ""
 ---
 
-I'm Zapad.
 
-![](images/wood.jpeg){fig-align="right" width="600"}
+
+
+
+::: {.column-margin}
+![Hi, I'm Zapad.](images/portrait.png)
+:::
+
+
