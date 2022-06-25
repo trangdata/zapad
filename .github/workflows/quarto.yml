@@ -20,9 +20,9 @@ jobs:
 
       - name: Deploy
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !github.event.repository.fork
-        uses: quarto-dev/quarto-actions/publish@v2
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          to: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
-      
+          publish_dir: build
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          cname: zapad.xyz
