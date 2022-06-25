@@ -1,0 +1,28 @@
+on:
+  - push
+  - pull_request
+
+name: Quarto
+
+jobs:
+  quarto:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2 
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: "Build"
+        shell: bash
+        run: quarto render
+
+      - name: Deploy
+        if: github.ref == 'main' && github.event_name != 'pull_request' && !github.event.repository.fork
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          to: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+      
