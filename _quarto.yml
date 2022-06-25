@@ -7,10 +7,6 @@ website:
   title: "zapad"
   navbar: false
   favicon: images/favicon.ico
-    # search: false
-    # left:
-    #   - href: index.qmd
-    #     text: " "
 
 format:
   html:
