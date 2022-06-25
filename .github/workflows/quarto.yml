@@ -19,7 +19,7 @@ jobs:
         run: quarto render
 
       - name: Deploy
-        if: github.ref == 'main' && github.event_name != 'pull_request' && !github.event.repository.fork
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !github.event.repository.fork
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           to: gh-pages
