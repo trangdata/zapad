@@ -1,7 +1,7 @@
 project:
   type: website
   search: true
-  output-dir: docs
+  output-dir: build
 
 website:
   title: "zapad"
