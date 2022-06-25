@@ -1,6 +1,6 @@
 project:
   type: website
-  search: true
+  search: false
   output-dir: build
 
 website:
