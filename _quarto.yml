@@ -13,7 +13,8 @@ website:
 
 format:
   html:
-    theme: morph
+    theme: sketchy
+    fontsize: 1.4em
     css: styles.css
     toc: true
 
