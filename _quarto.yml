@@ -13,7 +13,7 @@ website:
 
 format:
   html:
-    theme: slate
+    theme: morph
     css: styles.css
     toc: true
 

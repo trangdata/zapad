@@ -278,13 +278,13 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
             child.style.display = "none";
           }
 
-          const toggleContainer = window.document.createElement("div");
-          toggleContainer.style.width = "100%";
-          toggleContainer.classList.add("zindex-over-content");
-          toggleContainer.classList.add("quarto-sidebar-toggle");
-          toggleContainer.classList.add("headroom-target"); // Marks this to be managed by headeroom
-          toggleContainer.id = placeholderDescriptor.id;
-          toggleContainer.style.position = "fixed";
+          //const toggleContainer = window.document.createElement("div");
+          //toggleContainer.style.width = "100%";
+          //toggleContainer.classList.add("zindex-over-content");
+          //toggleContainer.classList.add("quarto-sidebar-toggle");
+          //toggleContainer.classList.add("headroom-target"); // Marks this to be managed by headeroom
+          //toggleContainer.id = placeholderDescriptor.id;
+          //toggleContainer.style.position = "fixed";
 
           const toggleIcon = window.document.createElement("i");
           toggleIcon.classList.add("quarto-sidebar-toggle-icon");
@@ -298,14 +298,14 @@ window.document.addEventListener("DOMContentLoaded", function (_event) {
           if (titleEl) {
             toggleTitle.append(titleEl.innerText, toggleIcon);
           }
-          toggleTitle.classList.add("zindex-over-content");
-          toggleTitle.classList.add("quarto-sidebar-toggle-title");
-          toggleContainer.append(toggleTitle);
+          //toggleTitle.classList.add("zindex-over-content");
+          //toggleTitle.classList.add("quarto-sidebar-toggle-title");
+          //toggleContainer.append(toggleTitle);
 
           const toggleContents = window.document.createElement("div");
           toggleContents.classList = el.classList;
-          toggleContents.classList.add("zindex-over-content");
-          toggleContents.classList.add("quarto-sidebar-toggle-contents");
+          //toggleContents.classList.add("zindex-over-content");
+          //toggleContents.classList.add("quarto-sidebar-toggle-contents");
           for (const child of el.children) {
             if (child.id === "toc-title") {
               continue;
