@@ -6,6 +6,7 @@ project:
 website:
   title: "zapad"
   navbar: false
+  favicon: favicon.ico
     # search: false
     # left:
     #   - href: index.qmd
