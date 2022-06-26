@@ -1,7 +1,7 @@
 project:
   type: website
   search: false
-  output-dir: build
+  output-dir: _site
 
 website:
   title: "Zapad"

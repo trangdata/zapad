@@ -8,13 +8,13 @@ jobs:
   quarto:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v2 
+      - name: Checkout
+        uses: actions/checkout@v3 
         
-      - name: Set up Quarto
+      - name: Install
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: "Build"
+      - name: Render
         shell: bash
         run: quarto render
 
@@ -22,7 +22,7 @@ jobs:
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !github.event.repository.fork
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: build
+          publish_dir: _site
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           cname: zapad.xyz
