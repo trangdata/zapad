@@ -4,7 +4,7 @@ project:
   output-dir: build
 
 website:
-  title: "zapad"
+  title: "Zapad"
   navbar: false
   favicon: images/favicon.ico
 
@@ -14,3 +14,8 @@ format:
     fontsize: 1.4em
     css: styles.css
     toc: false
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex">
+    include-after-body:
+      file: analytics.html
