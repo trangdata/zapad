@@ -1,5 +1,6 @@
 /build
-/.quarto
+/_site
+/.quarto/
 .Rproj.user
 .DS_Store
 *.Rproj

@@ -12,7 +12,6 @@ format:
   html:
     theme: sketchy
     fontsize: 1.4em
-    css: styles.css
     toc: false
     include-in-header:
       text: |
