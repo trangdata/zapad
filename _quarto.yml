@@ -1,11 +1,11 @@
 project:
   type: website
-  search: false
   output-dir: _site
 
 website:
   title: "Zapad"
   navbar: false
+  search: false
   favicon: images/favicon.ico
 
 format:
