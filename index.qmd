@@ -2,16 +2,13 @@
 title: "Meow, my name is Zapad."
 ---
 
-::: {.column-margin}
+::: column-margin
 ![](images/portrait.png)
 :::
 
-I live near the top of Prospect Hill in Somerville, MA,
-and enjoy frequent explorations around the neighborhood.
-I live with my lords,
-who love me dearly but understand my need to roam free.
-They've installed a smart cat door for me that reads my microchip
-such that I can travel at will.
+I live near the top of Prospect Hill in Somerville, MA, and enjoy frequent explorations around the neighborhood.
+I live with my lords, who love me dearly but understand my need to roam free.
+They've installed a smart cat door for me that reads my microchip such that I can travel at will.
 
 I am very competent, so it's *unlikely* that I am lost.
 Rain and snow do not bother me.
@@ -23,15 +20,11 @@ I enjoy good company and making friends in the neighborhood.
 
 I'm often able to manipulate strangers into feeding me.
 *Please do not*!
-If I begin receiving unauthorized feedings,
-I will lose my outdoor privileges.
+If I begin receiving unauthorized feedings, I will lose my outdoor privileges.
 I am on a special medical diet.
-Feeding outside of my home can encourage dangerous behaviors in me,
-causing me to get squashed by a car.
-Natural meals are okay if they are caught by claw
-although hopefully I do not eat any poisoned rodents.
-From time to time, I've been known to eat trash,
-a bad habit I picked up while growing up on the streets of Western Philadelphia.
+Feeding outside of my home can encourage dangerous behaviors in me, causing me to get squashed by a car.
+Natural meals are okay if they are caught by claw although hopefully I do not eat any poisoned rodents.
+From time to time, I've been known to eat trash, a bad habit I picked up while growing up on the streets of Western Philadelphia.
 
 ## Do Not Capture
 
@@ -40,19 +33,16 @@ My curiosity leads me to open doors, but I should not be in other people's house
 So if I've entered, please assist me out!
 My owners often come retrieve me and if I'm inside somewhere they cannot find me and become frustrated.
 Absolutely *do not* transport me by car without permission from my owners.
-If I am clearly and severely injured, please contact my owners;
-if you cannot get in touch, bring me to the address on my collar.
+If I am clearly and severely injured, please contact my owners; if you cannot get in touch, bring me to the address on my collar.
 
 ## Technology
 
 I am equipped with an Apple AirTag on my collar which allows my owners to locate me.
 Do not take my collar off.
-If you find my collar but I'm not there,
-please contact my owners.
+If you find my collar but I'm not there, please contact my owners.
 
 ## Contact
 
 Please text or call the phone number on the collar.
-Or email [meow@zapad.xyz](mailto:meow@zapad.xyz).
-If coming to the address on the collar,
-please knock on any window on the ground floor or come to the back door.
+Or email [meow\@zapad.xyz](mailto:meow@zapad.xyz).
+If coming to the address on the collar, please knock on any window on the ground floor or come to the back door.

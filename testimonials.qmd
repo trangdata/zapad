@@ -1,0 +1,16 @@
+---
+title: "Testimonials"
+listing:
+  id: testimonials
+  contents:
+   - "metadata.yml"
+  type: grid
+  fields: [date, categories, author, subtitle]
+page-layout: full
+title-block-banner-color: "white"
+title-block-style: plain
+---
+
+
+::: {#testimonials}
+:::

@@ -5,6 +5,12 @@ project:
 website:
   title: "Zapad"
   navbar: false
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: testimonials.qmd
+        text: Testimonials
   search: false
   favicon: images/favicon.ico
 
