@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Zapad - Meow, my name is Zapad.</title>
+<title>Zapad - Testimonials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,6 +26,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <link href="./images/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -50,12 +52,43 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-testimonials .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-categories','listing-author','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-subtitle","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-testimonials'] = new List('listing-testimonials', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <meta name="robots" content="noindex">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
-<body class="nav-sidebar floating slimcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -64,14 +97,14 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./testimonials.html">Testimonials</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -83,13 +116,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./testimonials.html" class="sidebar-item-text sidebar-link">
+  <a href="./testimonials.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Testimonials</span></a>
   </div>
 </li>
@@ -98,14 +131,13 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    </div>
+    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Meow, my name is Zapad.</h1>
+<h1 class="title">Testimonials</h1>
 </div>
 
 
@@ -120,29 +152,160 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div id="listing-testimonials" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+He’s such an affectionate being — clearly gets a lot of love!
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor Jade
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+If Zapad runs for office, he would win in a landslide.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor Stephan
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+Hi this is your neighbors on Boston st, we love your cat zapad is the best
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+We’ll miss Zapad so much. Best cat I’ve ever met. I used to love watching the cat from my window, seeing them hanging out with everyone in the park — from all walks of life, sometime playing with kids, sometime comforting sad looking lonely people late at night. Letting your cat roam free was a wonderful gift to the community.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor Lisa
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+Hey there neighbor, Vinal Ave-[neighbor] here, just wondering what your cat’s name is? Didn’t see it on the tag and some girls walking by said they just call him/her Fork haha. Super nice kitty though, first one I’ve gotten to hang with since losing mine a year ago, very much appreciated :)
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+I have enjoyed our brief encounters and your sweet cat, Zapad. Best of luck on your new journey.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor Tori
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+Zapad’s the governor of Prospect Hill.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Neighbor
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+He is the coolest cat in town, I envy his freedom.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Anonymous
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<div class="card-subtitle listing-subtitle">
+He is incredibly charming, I enjoyed meeting him!
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Anonymous
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="images/portrait.png" class="img-fluid"></p>
-</div></div><p>I live near the top of Prospect Hill in Somerville, MA, and enjoy frequent explorations around the neighborhood. I live with my lords, who love me dearly but understand my need to roam free. They’ve installed a smart cat door for me that reads my microchip such that I can travel at will.</p>
-<p>I am very competent, so it’s <em>unlikely</em> that I am lost. Rain and snow do not bother me. My premium pelt provides powerful protection from the elements. If you’re reading this, I’ve probably introduced myself to you. I enjoy good company and making friends in the neighborhood.</p>
-<section id="do-not-feed" class="level2">
-<h2 class="anchored" data-anchor-id="do-not-feed">Do Not Feed</h2>
-<p>I’m often able to manipulate strangers into feeding me. <em>Please do not</em>! If I begin receiving unauthorized feedings, I will lose my outdoor privileges. I am on a special medical diet. Feeding outside of my home can encourage dangerous behaviors in me, causing me to get squashed by a car. Natural meals are okay if they are caught by claw although hopefully I do not eat any poisoned rodents. From time to time, I’ve been known to eat trash, a bad habit I picked up while growing up on the streets of Western Philadelphia.</p>
-</section>
-<section id="do-not-capture" class="level2">
-<h2 class="anchored" data-anchor-id="do-not-capture">Do Not Capture</h2>
-<p>Please don’t keep me in enclosed areas. My curiosity leads me to open doors, but I should not be in other people’s houses. So if I’ve entered, please assist me out! My owners often come retrieve me and if I’m inside somewhere they cannot find me and become frustrated. Absolutely <em>do not</em> transport me by car without permission from my owners. If I am clearly and severely injured, please contact my owners; if you cannot get in touch, bring me to the address on my collar.</p>
-</section>
-<section id="technology" class="level2">
-<h2 class="anchored" data-anchor-id="technology">Technology</h2>
-<p>I am equipped with an Apple AirTag on my collar which allows my owners to locate me. Do not take my collar off. If you find my collar but I’m not there, please contact my owners.</p>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>Please text or call the phone number on the collar. Or email <a href="mailto:meow@zapad.xyz">meow@zapad.xyz</a>. If coming to the address on the collar, please knock on any window on the ground floor or come to the back door.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
