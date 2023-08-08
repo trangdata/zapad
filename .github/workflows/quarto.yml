@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3 
-        
+        uses: actions/checkout@v3
+
       - name: Install
         uses: quarto-dev/quarto-actions/setup@v2
 
@@ -18,11 +18,11 @@ jobs:
         shell: bash
         run: quarto render
 
-      - name: Deploy
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !github.event.repository.fork
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           publish_dir: _site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           cname: zapad.xyz
