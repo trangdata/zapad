@@ -10,6 +10,13 @@ I live near the top of Prospect Hill in Somerville, MA, and enjoy frequent explo
 I live with my lords, who love me dearly but understand my need to roam free.
 They've installed a smart cat door for me that reads my microchip such that I can travel at will.
 
+<script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/tohoduub.json"
+    trigger="loop"
+    colors="outline:#121331,primary:#646e78,secondary:#3a3347"
+    style="width:40px;height:40px">
+</lord-icon>
 I am very competent, so it's *unlikely* that I am lost.
 Rain and snow do not bother me.
 My premium pelt provides powerful protection from the elements.
