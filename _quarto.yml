@@ -24,3 +24,6 @@ format:
         <meta name="robots" content="noindex">
     include-after-body:
       file: analytics.html
+
+resources:
+  - CNAME
