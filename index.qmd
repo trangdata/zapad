@@ -6,7 +6,8 @@ title: "Meow, my name is Zapad."
 ![](images/portrait.png)
 :::
 
-I live near the top of Prospect Hill in Somerville, MA, and enjoy frequent explorations around the neighborhood.
+Formerly of Philadelphia and then Prospect Hill in Somerville, MA where General Washington commanded the first variant of the American flag to be raised,
+I'm currenlty living in Hanover, NH and enjoy frequent explorations around the neighborhood.
 I live with my lords, who love me dearly but understand my need to roam free.
 They've installed a smart cat door for me that reads my microchip such that I can travel at will.
 
@@ -18,6 +19,7 @@ They've installed a smart cat door for me that reads my microchip such that I ca
     style="width:40px;height:40px">
 </lord-icon>
 I am very competent, so it's *unlikely* that I am lost.
+However, do not hesitate to contact the number on my collar to confirm.
 Rain and snow do not bother me.
 My premium pelt provides powerful protection from the elements.
 If you're reading this, I've probably introduced myself to you.
@@ -30,8 +32,6 @@ I'm often able to manipulate strangers into feeding me.
 If I begin receiving unauthorized feedings, I will lose my outdoor privileges.
 I am on a special medical diet.
 Feeding outside of my home can encourage dangerous behaviors in me, causing me to get squashed by a car.
-Natural meals are okay if they are caught by claw although hopefully I do not eat any poisoned rodents.
-From time to time, I've been known to eat trash, a bad habit I picked up while growing up on the streets of Western Philadelphia.
 
 ## Do Not Capture
 
@@ -52,4 +52,3 @@ If you find my collar but I'm not there, please contact my owners.
 
 Please text or call the phone number on the collar.
 Or email [meow\@zapad.xyz](mailto:meow@zapad.xyz).
-If coming to the address on the collar, please knock on any window on the ground floor or come to the back door.
