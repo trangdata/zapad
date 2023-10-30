@@ -1,1 +1,1 @@
-Sitemap: https://github.com/trangdata/zapad/sitemap.xml
+Sitemap: https://zapad.xyz/sitemap.xml
